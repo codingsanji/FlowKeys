@@ -38,7 +38,6 @@ These ML tasks fulfill the classification/regression requirement of the assignme
 
 #### **Dataset:**  
 This project uses a **self-generated dataset** collected from typing sessions stored as a CSV or JSON but also uses augmentated datasets to assist like:
-- [Public Keystroke Dynamics Integration Dataset](https://figshare.com/articles/dataset/Public_Keystroke_Dynamics_Integration_Dataset/14066456) 
 - [KeyRecs Dataset](https://zenodo.org/records/7886743) 
 - [KEasyLogger Dataset](https://zenodo.org/records/6535004) 
 

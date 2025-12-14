@@ -1,9 +1,8 @@
 import pandas as pd
 import os
 
-def load_mendeley_dataset():
+def load_keyrecs_dataset():
     raw_path = "data/keystrokes/raw"
-
     all_files = [f for f in os.listdir(raw_path) if f.endswith(".csv")]
     df_list = []
 
@@ -19,5 +18,5 @@ def load_mendeley_dataset():
     return final_df
 
 if __name__ == "__main__":
-    df = load_mendeley_dataset()
+    df = load_keyrecs_dataset()
     print(df.head())
