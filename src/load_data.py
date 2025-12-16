@@ -3,7 +3,7 @@ import os
 
 def load_keyrecs_dataset():
     raw_path = "data/keystrokes/raw"
-    all_files = [f for f in os.listdir(raw_path) if f.endswith(".csv")]
+    all_files = [f for f in os.listdir(raw_path) if f.endswith("fixed-text.csv")]
     df_list = []
 
     for file in all_files:
@@ -19,4 +19,4 @@ def load_keyrecs_dataset():
 
 if __name__ == "__main__":
     df = load_keyrecs_dataset()
-    print(df.head())
+    print(df)
