@@ -3,6 +3,43 @@
 **FlowKeys** is a Python-based typing practice desktop application inspired by MonkeyType but **enhanced with machine learning and fully offline AI**.  The aim is to help users analyze their typing behavior, improve accuracy, and personalize their learning curve.  
 
 ---
+## Start
+### 1. Installation and Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/codingsanji/FlowKeys.git
+cd FlowKeys
+
+# Create a virtual environment
+python -m venv venv
+
+# Activate it:
+# Windows
+.\venv\Scripts\activate
+# Mac/Linux
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### 2. Run the application
+
+a. On Windows, cd to path and run: 
+```powershell 
+#(python src/app/main.py)
+$env:PYTHONPATH = "src" 
+python src/app/main.py
+```
+
+b. On Mac/Linux/Git bash, run: 
+```bash
+export PYTHONPATH=$PYTHONPATH:$(pwd)/src
+python src/app/main.py
+```
+
+---
 ## Features
 
 | Feature | Description | Dataset Used | ML/AI Type |
@@ -168,10 +205,4 @@ These can come in handy but not at the moment...
 
 ---
 
-## Installation
-
-```bash
-pip install -r requirements.txt
-python src/main.py
-```
 
